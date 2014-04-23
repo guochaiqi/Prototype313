@@ -1,18 +1,18 @@
 #main_header{
-	background-color: rgba(69, 153, 60, 0.95);
+	background-color: #69A0C8;
 }
 
-#main_header #header {
+#main_header #banner {
 	width: 72%;
 	margin:0 auto;
-	background:url(images/header_pic.gif);
+	background:url("{T_THEME_PATH}/images/header_pic.gif");
 	height:216px;
 	background-size:100% 100%;
 	position:relative;
 }
 
 html,body {
-   background: #f8f8f8 url("{T_THEME_PATH}/images/bgs.png") repeat;
+   background: #f8f8f8 /*url("{T_THEME_PATH}/images/bgs.png") repeat*/;
 }
 
 a:hover {
@@ -725,4 +725,46 @@ input.button3:hover {
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
+}
+
+/*Our Footer*/
+#main_footer{
+	width:100%;  float:left;  color:black;
+	border-top:#ffffff 1px solid; margin-top:5px; padding:0px; background-color:#e6e6e3; bottom: 0; 
+	}
+#footer {
+	width:550px; height:187px;
+	margin:0 auto 0 auto; bottom: 0;
+	}
+#footer ul{
+	width:550px; display:block;	list-style-type:none;  position:absolute; margin:46px 0 0 22px;
+	}
+#footer ul li{
+	display:block; float:left; 
+		}
+#footer ul li a{
+	font:14px/12px;
+	color: black;
+	text-decoration:none;
+	margin:0 16px 0 16px;
+	}
+#footer ul li a:hover{
+	text-decoration:underline;
+	}
+
+#footer ul.css{
+	width:100px;
+	display:block;
+	margin:75px 0 0 211px;
+	font-size:0px;
+	padding:0px;
+	}
+#footer p{
+	padding:35px 0 0 165px;
+	height:24px; margin: -1px 0px;
+}
+
+hr{
+	height: .4em;
+	background-color: white;
 }

@@ -14,17 +14,8 @@
 				<li class="icon-time"><?php echo (isset($this->_rootref['S_TIMEZONE'])) ? $this->_rootref['S_TIMEZONE'] : ''; ?></li>
 			</ul>
 		</div>
-
-		<div class="copyright"><?php echo (isset($this->_rootref['CREDIT_LINE'])) ? $this->_rootref['CREDIT_LINE'] : ''; ?>
-
-			<?php if ($this->_rootref['TRANSLATION_INFO']) {  ?><br /><?php echo (isset($this->_rootref['TRANSLATION_INFO'])) ? $this->_rootref['TRANSLATION_INFO'] : ''; } if ($this->_rootref['DEBUG_OUTPUT']) {  ?><br /><?php echo (isset($this->_rootref['DEBUG_OUTPUT'])) ? $this->_rootref['DEBUG_OUTPUT'] : ''; } if ($this->_rootref['U_ACP']) {  ?><br /><strong><a href="<?php echo (isset($this->_rootref['U_ACP'])) ? $this->_rootref['U_ACP'] : ''; ?>"><?php echo ((isset($this->_rootref['L_ACP'])) ? $this->_rootref['L_ACP'] : ((isset($user->lang['ACP'])) ? $user->lang['ACP'] : '{ ACP }')); ?></a></strong><?php } ?>
-
-		</div>
 	</div>
 </div>
-	<div class="footer">
-		Style by <a href="http://www.bradleyv.com" title="Brad">Brad Veryard</a>
-	</div>
 </div>
 
 <div>
@@ -32,6 +23,25 @@
 	<?php if (! $this->_rootref['S_IS_BOT']) {  echo (isset($this->_rootref['RUN_CRON_TASK'])) ? $this->_rootref['RUN_CRON_TASK'] : ''; } ?>
 
 </div>
+<div id="main_footer">
+		<div id="footer"><!--footer navigation start -->
+			<ul>
+				<li><a href="#">About Us</a>|</li>
+				<li><a href="#">FAQ</a>|</li>
+				<li><a href="http://www.nyu.edu/">NYU</a>|</li>
+				<li><a href="http://engineering.nyu.edu/">School of Engineering</a>|</li>
+				<li><a href="http://www.nyu.edu/life/resources-and-services/career-development.html">Career Services</a></li>
+			</ul>
+			<p> <hr>
+				<div class="copyright">
+					&copy; Prototype 313. All rights reserved. <br> Designed by: Chusen Liang, Philip Moise, Michael Ye, Jacky Guo <br>
+					<?php echo (isset($this->_rootref['CREDIT_LINE'])) ? $this->_rootref['CREDIT_LINE'] : ''; ?>
 
+					<?php if ($this->_rootref['TRANSLATION_INFO']) {  ?><br /><?php echo (isset($this->_rootref['TRANSLATION_INFO'])) ? $this->_rootref['TRANSLATION_INFO'] : ''; } if ($this->_rootref['DEBUG_OUTPUT']) {  ?><br /><?php echo (isset($this->_rootref['DEBUG_OUTPUT'])) ? $this->_rootref['DEBUG_OUTPUT'] : ''; } if ($this->_rootref['U_ACP']) {  ?><br /><strong><a href="<?php echo (isset($this->_rootref['U_ACP'])) ? $this->_rootref['U_ACP'] : ''; ?>"><?php echo ((isset($this->_rootref['L_ACP'])) ? $this->_rootref['L_ACP'] : ((isset($user->lang['ACP'])) ? $user->lang['ACP'] : '{ ACP }')); ?></a></strong><?php } ?>
+
+				</div>
+			</p>
+		</div><!--footer navigation end -->
+	</div>
 </body>
 </html>

@@ -1,8 +1,8 @@
 <?php exit; ?>
-1398220484
+1398229196
 SELECT s.style_id, c.theme_id, c.theme_data, c.theme_path, c.theme_name, c.theme_mtime, i.*, t.template_path FROM p313_styles s, p313_styles_template t, p313_styles_theme c, p313_styles_imageset i WHERE s.style_id = 2 AND t.template_id = s.template_id AND c.theme_id = s.theme_id AND i.imageset_id = s.imageset_id
-103643
-a:1:{i:0;a:11:{s:8:"style_id";s:1:"2";s:8:"theme_id";s:1:"2";s:10:"theme_data";s:103231:"/*  phpBB3 Style Sheet
+104466
+a:1:{i:0;a:11:{s:8:"style_id";s:1:"2";s:8:"theme_id";s:1:"2";s:10:"theme_data";s:104054:"/*  phpBB3 Style Sheet
     --------------------------------------------------------------
 	Style name:			Oxygen
 	Based on style:		proSilver
@@ -3818,20 +3818,20 @@ input.disabled {
 	color: #666666;
 }
 #main_header{
-	background-color: rgba(69, 153, 60, 0.95);
+	background-color: #69A0C8;
 }
 
-#main_header #header {
+#main_header #banner {
 	width: 72%;
 	margin:0 auto;
-	background:url(images/header_pic.gif);
+	background:url("{T_THEME_PATH}/images/header_pic.gif");
 	height:216px;
 	background-size:100% 100%;
 	position:relative;
 }
 
 html,body {
-   background: #f8f8f8 url("{T_THEME_PATH}/images/bgs.png") repeat;
+   background: #f8f8f8 /*url("{T_THEME_PATH}/images/bgs.png") repeat*/;
 }
 
 a:hover {
@@ -4546,6 +4546,48 @@ input.button3:hover {
 	-webkit-border-radius: 3px;
 }
 
+/*Our Footer*/
+#main_footer{
+	width:100%;  float:left;  color:black;
+	border-top:#ffffff 1px solid; margin-top:5px; padding:0px; background-color:#e6e6e3; bottom: 0; 
+	}
+#footer {
+	width:550px; height:187px;
+	margin:0 auto 0 auto; bottom: 0;
+	}
+#footer ul{
+	width:550px; display:block;	list-style-type:none;  position:absolute; margin:46px 0 0 22px;
+	}
+#footer ul li{
+	display:block; float:left; 
+		}
+#footer ul li a{
+	font:14px/12px;
+	color: black;
+	text-decoration:none;
+	margin:0 16px 0 16px;
+	}
+#footer ul li a:hover{
+	text-decoration:underline;
+	}
+
+#footer ul.css{
+	width:100px;
+	display:block;
+	margin:75px 0 0 211px;
+	font-size:0px;
+	padding:0px;
+	}
+#footer p{
+	padding:35px 0 0 165px;
+	height:24px; margin: -1px 0px;
+}
+
+hr{
+	height: .4em;
+	background-color: white;
+}
+
 @font-face{font-family:'FontAwesome';src:url('{T_THEME_PATH}/fonts/fontawesome-webfont.eot?v=4.0.1');src:url('{T_THEME_PATH}/fonts/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('{T_THEME_PATH}/fonts/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('{T_THEME_PATH}/fonts/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('{T_THEME_PATH}/fonts/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}.fa{display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .fa-lg{font-size:1.3333333333333333em;line-height:.75em;vertical-align:-15%}
 .fa-2x{font-size:2em}
@@ -4941,4 +4983,4 @@ input.button3:hover {
 .fa-wheelchair:before{content:"\f193"}
 .fa-vimeo-square:before{content:"\f194"}
 .fa-turkish-lira:before,.fa-try:before{content:"\f195"}
-";s:10:"theme_path";s:6:"oxygen";s:10:"theme_name";s:6:"Oxygen";s:11:"theme_mtime";s:10:"1398186626";s:11:"imageset_id";s:1:"2";s:13:"imageset_name";s:6:"Oxygen";s:18:"imageset_copyright";s:57:"&copy; <a href="http://www.bradleyv.com">Brad Veryard</a>";s:13:"imageset_path";s:6:"oxygen";s:13:"template_path";s:6:"oxygen";}}
+";s:10:"theme_path";s:6:"oxygen";s:10:"theme_name";s:6:"Oxygen";s:11:"theme_mtime";s:10:"1398186625";s:11:"imageset_id";s:1:"2";s:13:"imageset_name";s:6:"Oxygen";s:18:"imageset_copyright";s:57:"&copy; <a href="http://www.bradleyv.com">Brad Veryard</a>";s:13:"imageset_path";s:6:"oxygen";s:13:"template_path";s:6:"oxygen";}}

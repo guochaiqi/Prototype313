@@ -18,23 +18,33 @@
 				<li class="icon-time">{S_TIMEZONE}</li>
 			</ul>
 		</div>
-
-		<div class="copyright">{CREDIT_LINE}
-			<!-- IF TRANSLATION_INFO --><br />{TRANSLATION_INFO}<!-- ENDIF -->
-			<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
-			<!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
-		</div>
 	</div>
 </div>
-	<div class="footer">
-		Style by <a href="http://www.bradleyv.com" title="Brad">Brad Veryard</a>
-	</div>
 </div>
 
 <div>
 	<a id="bottom" name="bottom" accesskey="z"></a>
 	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
 </div>
-
+<div id="main_footer">
+		<div id="footer"><!--footer navigation start -->
+			<ul>
+				<li><a href="#">About Us</a>|</li>
+				<li><a href="#">FAQ</a>|</li>
+				<li><a href="http://www.nyu.edu/">NYU</a>|</li>
+				<li><a href="http://engineering.nyu.edu/">School of Engineering</a>|</li>
+				<li><a href="http://www.nyu.edu/life/resources-and-services/career-development.html">Career Services</a></li>
+			</ul>
+			<p> <hr>
+				<div class="copyright">
+					&copy; Prototype 313. All rights reserved. <br> Designed by: Chusen Liang, Philip Moise, Michael Ye, Jacky Guo <br>
+					{CREDIT_LINE}
+					<!-- IF TRANSLATION_INFO --><br />{TRANSLATION_INFO}<!-- ENDIF -->
+					<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
+					<!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
+				</div>
+			</p>
+		</div><!--footer navigation end -->
+	</div>
 </body>
 </html>

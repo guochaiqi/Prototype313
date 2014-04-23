@@ -23,6 +23,7 @@
 	Based on style:   prosilver (this is the default phpBB3 style)
 	Original author:  Tom Beddard ( http://www.subBlue.com/ )
 	Modified by: Brad Veryard ( http://www.bradleyv.com/ )
+	Further Modified by: Prototype 313 Team - Philip, Jacky, Chusen, Michael
 -->
 
 <script type="text/javascript">
@@ -93,7 +94,8 @@
 
 <body id="phpbb" class="section-<?php echo (isset($this->_rootref['SCRIPT_NAME'])) ? $this->_rootref['SCRIPT_NAME'] : ''; ?> <?php echo (isset($this->_rootref['S_CONTENT_DIRECTION'])) ? $this->_rootref['S_CONTENT_DIRECTION'] : ''; ?>">
 <div id="main_header">
-	<div id="header"></div>
+	<div id="banner"></div>
+	
 </div>
 <div id="wrap">
 <a id="top" name="top" accesskey="t"></a>
@@ -123,7 +125,7 @@
 		    <li><a href="../home.html">Home</a></li>
 		    <li><a href="../concepts.html">OOP Concepts</a></li>
 		    <li><a href="../company.html">Incubator/Company</a></li>
-		    <li><a href="./index.php?sid=e5c944962b28102bf9680f51c116741b">All Questions</a></li>
+		    <li><a href="../questions.html">All Questions</a></li>
 		</ul>
 			
 		</ul>

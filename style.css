@@ -61,10 +61,10 @@ ul{
     bottom: 0; 
     padding-left: 3em;
     width: 100%;
-    background-color: #60a858;
+    background-color: #69A0C8;
 }
 .nav li a{
-	background-color: #60a858;
+	background-color: #69A0C8;
 	color: white;
     float: left;
     padding: 15px 0;
@@ -73,13 +73,13 @@ ul{
     text-align: center;
 }
 .nav li a:hover{
-    color: #60a858 !important;
-    background-color: #60a858;
+    color: #69A0C8 !important;
+    background-color: #69A0C8;
 }
 .nav li.active a{
     color: black;
     text-decoration: underline;
-    background-color: #60a858;
+    background-color: #69A0C8;
 }
 
 
@@ -110,7 +110,7 @@ ul{
 /*--------------------------------header-------------------*/
 
 #main_header{
-	width:100%;	margin:0 auto;  background-color:rgba(69,153,60,0.95);  color:#FFFFFF; height:216px; 
+	width:100%;	margin:0 auto;  background-color:#69A0C8; color:#FFFFFF; height:216px; 
 	}
 #main_header #header{
 	 width: 72%; margin:0 auto; background:url(images/header_pic.gif) ; color:#FFFFFF; height:216px; background-size:100% 100%;
@@ -137,19 +137,19 @@ ul{
 	position:absolute; left:40px; top:74px; display:block;
 	}
 #main_header #header ul.navi{
-	width:800px; display:block; position:absolute; top:189px; left:100px; padding:0; margin:0; background:none;
+	width:100%; display:block; position:absolute; top:189px; left:4%; padding:0; margin:0; background:none;
 	}
 #main_header #header ul.navi li{
-	background:url(images/saparation.gif) no-repeat right; height:22px; padding:0 14px 0 5px; margin:0;
+	background:url(images/saparation.gif) no-repeat right; height:22px; padding:0 5% 0 5%; margin:0;
 	display:block; float:left; 
 	}
 #main_header #header ul.navi li.li1{
-	background:none; height:22px; padding:0 14px 0 5px; margin:0;
+	background:none; height:22px; padding:0 5% 0 5%; margin:0;
 	display:block;  float:left; 
 	}
 #main_header #header ul.navi li a{
 	font:16px/21px "Trebuchet MS", Arial, Helvetica, sans-serif; color:white; text-decoration:none; text-indent:0px; 
-	padding:0 0 0 15px; font-weight:bold; margin:0; width:inherit; background-color:#60a858; 
+	padding:0 0 0 15px; margin:0; width:inherit; 
 	}
 	
 /*--------------------------------entire body-------------------*/
@@ -171,7 +171,8 @@ ul{
 	font-weight:normal;  display:block;
 	}
 #body p{
-	background:url(images/logo.gif) no-repeat; padding:0 0 0 114px; margin:0 0 0 40px; width:598px;
+	background:url(images/logo.png) no-repeat;
+	background-size: 80px 86px; padding:0 0 0 114px; margin:0 0 0 40px; width:598px;
 	display:block; font:13px/17px Verdana, Arial, Helvetica, sans-serif; 
 	}
 #body p a{
@@ -221,7 +222,7 @@ ul{
 	}
 #footer p{
 	padding:35px 0 0 165px; font:14px/16px Tahoma, Arial, Helvetica, sans-serif; 
-		font-weight:normal;	height:24px; margin:3px; text-align: center; margin: 0px auto;
+		font-weight:normal;	height:24px; text-align: center; margin: 0px auto;
 	}
 
 hr{
